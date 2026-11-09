@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="main.js" defer>
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+  font-family: VT323;
+}
+img {
+  width: 600px;
+  margin: 20px;
+  float: left;
+}
+p {
+  color: yellow;
+  background: green;
+  border-radius: 8px;
+  display: inline;
+  padding: 5px;
+  margin-top: 300px;
+}
+@media screen and (max-width: 600px) {
+  img {
+    width: 300px;
+}
+}</style>
+</head>
+<body>
+<p onclick="window.location.reload();">Pick Again (再选一次)</p>
+<img id="img">
+<p id="yo" style="display: none;">
+</p>
+</html>
